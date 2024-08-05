@@ -116,7 +116,7 @@ function downloadPDF() {
         margin:       0,
         filename:     'CV.pdf',
         image:        { type: 'jpeg', quality: 0.98 },
-        html2canvas:  { scale: 2 },
+        html2canvas:  { scale: 3 },
         jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
     }
     html2pdf(element, opt)
