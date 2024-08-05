@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main id="cv">
+        <section class="introduction-section">
+            <div class="introduction-section_person">
+                <div class="introduction-section_avatar layout-cell">
+                    <img src="https://s3-alpha-sig.figma.com/img/327e/1027/27f8803676f1e5a26c4e31dbaf5cba56?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CPiXcaOuSn-pZ1oCJuUB-ZlOnEw6YY-a2Jnl809m11LWSBiygPMeTY9FkFd7HP0ARREmf82GbGIz4-BoPW7g39FkdwYzxSlVWfFVdsA~pUWv6A0CTBL7e~xGT7iCcTJ2arbJWzBzAMoaWZvQ28n~kHV9tKIS2oe0sFzkNZGpYaleRkNgr5eI-VLIZcVceC-ZoJWYlKMEsz8qxvi7ua8ey7WtcTt3FrgTmAQPHVNEGodUybKv8ZO5E-5H3TLIEJtLY10nsN4dM-LmaGyjYTWbVv3ur4Y55JkHmzo3EzazLSwjwJdENW-7Yng8q-KXk0Z~h0TIaY0HaYGxpyKiFehWcw__" alt="">
+                </div>
+                <div class="introduction-section_about layout-cell" id="personal">
+                    <p>Hello 👋🏻 I’m</p>
+                    <div>
+                        <div class="introduction-section_about_name has-placeholder" contenteditable="true" data-placeholder="Name" data-parent-element="personal">Karthik SR</div>
+                        <div class="introduction-section_about_position has-placeholder" contenteditable="true" data-placeholder="Position" data-parent-element="personal">UX/UI Designer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="introduction-section_language layout-cell" id="language-levels">
+                <h1>Languages</h1>
+                <div class="introduction-section_language_body">
+                    <div class="introduction-section_language_body_label has-placeholder" contenteditable="true" data-placeholder="Language" data-parent-element="language-levels">English</div>
+                    <div class="introduction-section_language_body_progressbar" onclick="setLanguageLevel(event, this)">
+                        <div class="introduction-section_language_body_progressbar_content" data-level="100"></div>
+                    </div>
+                    <div class="introduction-section_language_body_label has-placeholder" contenteditable="true" data-placeholder="Language" data-parent-element="language-levels">Malayalam</div>
+                    <div class="introduction-section_language_body_progressbar" onclick="setLanguageLevel(event, this)">
+                        <div class="introduction-section_language_body_progressbar_content" data-level="100"></div>
+                    </div>
+                    <div class="introduction-section_language_body_label has-placeholder" contenteditable="true" data-placeholder="Language" data-parent-element="language-levels">Hindi</div>
+                    <div class="introduction-section_language_body_progressbar" onclick="setLanguageLevel(event, this)">
+                        <div class="introduction-section_language_body_progressbar_content" data-level="77"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-section">
+            <div class="main-section_experience layout-cell">
+                <h1>Experience</h1>
+                <div class="main-section_experience_list">
+                    <div class="main-section_experience_list_item" id="experience-1">
+                        <div class="main-section_experience_list_item_head">
+                            <div class="has-placeholder" contenteditable="true" data-placeholder="From" data-parent-element="experience-1">Jun. 2023</div>
+                            <span class="span-divider">-</span>
+                            <div class="has-placeholder" contenteditable="true" data-placeholder="to" data-parent-element="experience-1">Present</div>
+                        </div>
+                        <div class="main-section_experience_list_item_body">
+                            <div class="main-section_experience_list_item_body_title">
+                                <div class="has-placeholder h2" contenteditable="true" data-placeholder="Job title" data-parent-element="experience-1">Marketing Manager</div>
+                                <span class="has-placeholder" contenteditable="true" data-placeholder="Company" data-parent-element="experience-1">Pankayam</span>
+                                <span class="span-divider">|</span>
+                                <span class="has-placeholder" contenteditable="true" data-placeholder="Mode" data-parent-element="experience-1">Full-time</span>
+                            </div>
+                            <ul class="main-section_experience_list_item_body_details">
+                                <li contenteditable="true" onkeydown="onListItemChange(event, this, 'experience-1')">
+                                    Strategy development and planning of campaigns that promote the business and generate genuine traffic
+                                </li>
+                                <li contenteditable="true" onkeydown="onListItemChange(event, this, 'experience-1')">
+                                    SEO Content Creation for Blogs, Website, Social media
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main-section_experience_list_item" id="experience-2">
+                        <div class="main-section_experience_list_item_head">
+                            <div class="has-placeholder" contenteditable="true" data-placeholder="From" data-parent-element="experience-2">2017</div>
+                            <span class="span-divider">-</span>
+                            <div class="has-placeholder" contenteditable="true" data-placeholder="to" data-parent-element="experience-2">Present</div>
+                        </div>
+                        <div class="main-section_experience_list_item_body">
+                            <div class="main-section_experience_list_item_body_title">
+                                <div class="has-placeholder h2" contenteditable="true" data-placeholder="Job title" data-parent-element="experience-2">Graphic / Web designer</div>
+                                <span class="has-placeholder" contenteditable="true" data-placeholder="Mode" data-parent-element="experience-2">Freelance</span>
+                            </div>
+                            <ul class="main-section_experience_list_item_body_details">
+                                <li contenteditable="true" onkeydown="onListItemChange(event, this, 'experience-2')">
+                                    Development of internal projects from scratch, product design of brands
+                                </li>
+                                <li contenteditable="true" onkeydown="onListItemChange(event, this, 'experience-2')">
+                                    Landing page, webapps and hybrid apps
+                                </li>
+                                <li contenteditable="true" onkeydown="onListItemChange(event, this, 'experience-2')">
+                                    Coordinating with outside agencies, art services, web designer, marketing, printers, and colleagues as necessary
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main-section_experience_list_item" id="experience-3">
+                        <div class="main-section_experience_list_item_head">
+                            <div class="has-placeholder" contenteditable="true" data-placeholder="From" data-parent-element="experience-3">Sep. 2021</div>
+                            <span class="span-divider">-</span>
+                            <div class="has-placeholder" contenteditable="true" data-placeholder="to" data-parent-element="experience-3">Jun. 2023</div>
+                        </div>
+                        <div class="main-section_experience_list_item_body">
+                            <div class="main-section_experience_list_item_body_title">
+                                <div class="has-placeholder h2" contenteditable="true" data-placeholder="Job title" data-parent-element="experience-3">Legal Assistant</div>
+                                <span class="has-placeholder" contenteditable="true" data-placeholder="Company" data-parent-element="experience-3">Law Firm</span>
+                                <span class="span-divider">|</span>
+                                <span class="has-placeholder" contenteditable="true" data-placeholder="Mode" data-parent-element="experience-3">Intern</span>
+                            </div>
+                            <ul class="main-section_experience_list_item_body_details">
+                                <li contenteditable="true" onkeydown="onListItemChange(event, this, 'experience-3')">
+                                    Provide administrative support to lawyer and enhance office effectiveness
+                                </li>
+                                <li contenteditable="true" onkeydown="onListItemChange(event, this, 'experience-3')">
+                                    Handle communication with clients, witnesses etc.
+                                </li>
+                                <li contenteditable="true" onkeydown="onListItemChange(event, this, 'experience-3')">
+                                    Repare case briefs and summarize depositions, interrogatories and testimony
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-section_tools layout-cell">
+                <h1>Tools</h1>
+                <div class="main-section_tools_body">
+                    <div class="main-section_tools_body_item">
+                        <div class="main-section_tools_body_item_title" contenteditable="true">
+                            design
+                        </div>
+                        <img src="icons/FigmaLogo.svg" alt="Figma">
+                        <img src="icons/PsLogo.svg" alt="Adobe Photoshop">
+                        <img src="icons/AiLogo.svg" alt="Adobe Illustrator">
+                        <img src="icons/PrLogo.svg" alt="Adobe Premiere">
+                        <img src="icons/NotionLogo.svg" alt="Notion">
+                        <img src="icons/GoogleMeetLogo.svg" alt="Google Meet">
+                    </div>
+                    <div class="main-section_tools_body_item">
+                        <div class="main-section_tools_body_item_title" contenteditable="true">
+                            no-code
+                        </div>
+                        <img src="icons/ZapierLogo.svg" alt="Zapier">
+                        <img src="icons/WebflowLogo.svg" alt="Webflow">
+                        <img src="icons/FramerLogo.svg" alt="Framer">
+                        <img src="icons/WordpressLogo.svg" alt="Wordpress">
+                    </div>
+                    <div class="main-section_tools_body_item">
+                        <div class="main-section_tools_body_item_title" contenteditable="true">
+                            artificial intelligence
+                        </div>
+                        <img src="icons/ChatGPTLogo.svg" alt="ChatGPT">
+                        <img src="icons/CopilotLogo.svg" alt="Copilot">
+                        <img src="icons/MidjourneyLogo.svg" alt="Midjourney">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="more-section">
+            <div class="more-section_education layout-cell">
+                <h1>Education</h1>
+                <div class="more-section_education_body">
+                    <div class="more-section_education_body_item" id="education-1">
+                        <div class="more-section_education_body_item_year has-placeholder" contenteditable="true" data-parent-element="education-1" data-placeholder="Year">2023</div>
+                        <div>
+                            <div class="more-section_education_body_item_topic has-placeholder" contenteditable="true" data-parent-element="education-1" data-placeholder="Course">UI/UX</div>
+                            <div class="more-section_education_body_item_hashtags">
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true" onkeydown="onChangeHashtagsList(event, this, 'education-1')">UX</div>
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true" onkeydown="onChangeHashtagsList(event, this, 'education-1')">UI</div>
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true" onkeydown="onChangeHashtagsList(event, this, 'education-1')">research</div>
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true" onkeydown="onChangeHashtagsList(event, this, 'education-1')">DesignSystem</div>
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true" onkeydown="onChangeHashtagsList(event, this, 'education-1')">Ui</div>
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true" onkeydown="onChangeHashtagsList(event, this, 'education-1')">wireframing</div>
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true" onkeydown="onChangeHashtagsList(event, this, 'education-1')">figma</div>
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true" onkeydown="onChangeHashtagsList(event, this, 'education-1')">Ux</div>
+                            </div>
+                        </div>
+                        <div class="more-section_education_body_item_university has-placeholder" contenteditable="true" data-parent-element="education-1" data-placeholder="University">Coursera</div>
+                    </div>
+                    <div class="more-section_education_body_item" id="education-2">
+                        <div class="more-section_education_body_item_year has-placeholder" contenteditable="true"
+                            data-parent-element="education-2" data-placeholder="Year">2017 - 2022</div>
+                        <div>
+                            <div class="more-section_education_body_item_topic has-placeholder" contenteditable="true"
+                                data-parent-element="education-2" data-placeholder="Course">Law</div>
+                            <div class="more-section_education_body_item_hashtags">
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true"
+                                    onkeydown="onChangeHashtagsList(event, this, 'education-2')">law</div>
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true"
+                                    onkeydown="onChangeHashtagsList(event, this, 'education-2')">legalStudies</div>
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true"
+                                    onkeydown="onChangeHashtagsList(event, this, 'education-2')">contracts</div>
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true"
+                                    onkeydown="onChangeHashtagsList(event, this, 'education-2')">internationalLaws</div>
+                            </div>
+                        </div>
+                        <div class="more-section_education_body_item_university has-placeholder" contenteditable="true"
+                            data-parent-element="education-2" data-placeholder="University">University of Kerala</div>
+                    </div>
+                    <div class="more-section_education_body_item" id="education-3">
+                        <div class="more-section_education_body_item_year has-placeholder" contenteditable="true"
+                            data-parent-element="education-3" data-placeholder="Year">2017</div>
+                        <div>
+                            <div class="more-section_education_body_item_topic has-placeholder" contenteditable="true"
+                                data-parent-element="education-3" data-placeholder="Course">Graphic design</div>
+                            <div class="more-section_education_body_item_hashtags">
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true"
+                                    onkeydown="onChangeHashtagsList(event, this, 'education-3')">branding</div>
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true"
+                                    onkeydown="onChangeHashtagsList(event, this, 'education-3')">web</div>
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true"
+                                    onkeydown="onChangeHashtagsList(event, this, 'education-3')">illustration</div>
+                                <div class="more-section_education_body_item_hashtags_item" contenteditable="true"
+                                    onkeydown="onChangeHashtagsList(event, this, 'education-3')">adobe</div>
+                            </div>
+                        </div>
+                        <div class="more-section_education_body_item_university has-placeholder" contenteditable="true"
+                            data-parent-element="education-3" data-placeholder="University">Coursera</div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-section_interests layout-cell" id="interests">
+                <h1>Interests</h1>
+                <div class="more-section_interests_body">
+                    <div class="more-section_interests_body_item" contenteditable="true" onkeydown="onChangeInterestsList(event, this, 'interests')">
+                        branding
+                    </div>
+                    <div class="more-section_interests_body_item" contenteditable="true" onkeydown="onChangeInterestsList(event, this, 'interests')">
+                        design
+                    </div>
+                    <div class="more-section_interests_body_item" contenteditable="true" onkeydown="onChangeInterestsList(event, this, 'interests')">
+                        photography
+                    </div>
+                    <div class="more-section_interests_body_item" contenteditable="true" onkeydown="onChangeInterestsList(event, this, 'interests')">
+                        artificial intelligence
+                    </div>
+                    <div class="more-section_interests_body_item" contenteditable="true" onkeydown="onChangeInterestsList(event, this, 'interests')">
+                        illustration
+                    </div>
+                    <div class="more-section_interests_body_item" contenteditable="true" onkeydown="onChangeInterestsList(event, this, 'interests')">
+                        typography
+                    </div>
+                    <div class="more-section_interests_body_item" contenteditable="true" onkeydown="onChangeInterestsList(event, this, 'interests')">
+                        social networks
+                    </div>
+                    <div class="more-section_interests_body_item" contenteditable="true" onkeydown="onChangeInterestsList(event, this, 'interests')">
+                        research
+                    </div>
+                    <div class="more-section_interests_body_item" contenteditable="true" onkeydown="onChangeInterestsList(event, this, 'interests')">
+                        dron pilot
+                    </div>
+                    <div class="more-section_interests_body_item" contenteditable="true" onkeydown="onChangeInterestsList(event, this, 'interests')">
+                        games
+                    </div>
+                </div>
+            </div>
+            <div class="more-section_contact layout-cell">
+                <h1>Let´s chat! I´m ready to work on excinting projects</h1>
+                <a href="mailto:srkarthik.designscape@gmail.com">srkarthik.designscape@gmail.com</a>
+            </div>
+        </section>
+        <button class="download-btn" onclick="downloadPDF()">Download PDF</button>
+    </main>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+        integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
